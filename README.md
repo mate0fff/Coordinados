@@ -10,13 +10,14 @@ Aplicación móvil desarrollada como Trabajo Práctico Integrador para organizar
 - **Autenticación y Persistencia por usuario:** Sistema de Registro e Inicio de Sesión gestionado con AuthContext. Utiliza @react-native-async-storage/async-storage para garantizar la persistencia local y el aislamiento de datos.
 
 ## Estructura de Carpetas
+```text
 coordinados/
 ├── src/
-│   ├── components/       # Componentes de UI (BotonPrimario.tsx)
-│   ├── context/          # Estado global, autenticación y almacenamiento local (AuthContext.tsx)
+│   ├── components/       # Componentes de UI reutilizables (BotonPrimario.tsx)
+│   ├── context/          # Estado global, autenticación y almacenamiento (AuthContext.tsx)
 │   ├── navigation/       # Configuración de navegadores Stack y Tabs (AppNavigator.tsx)
 │   ├── screens/          # Pantallas principales (Login, Register, Cronograma, DetalleEvento, Gastos)
-│   ├── styles/           # Paleta de colores y diseño (colors.ts)
+│   ├── styles/           # Paleta de colores y constantes de diseño (colors.ts)
 │   └── types/            # Tipado estricto e interfaces de navegación (navigation.ts)
 ├── App.tsx               # Punto de entrada de la aplicación
 └── package.json
