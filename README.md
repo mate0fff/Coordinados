@@ -21,7 +21,7 @@ coordinados/
 │   └── types/            # Tipado estricto e interfaces de navegación (navigation.ts)
 ├── App.tsx               # Punto de entrada de la aplicación
 └── package.json
-
+```
 
 ## Instalación y Ejecución
 1. Clonar el repositorio.
@@ -31,6 +31,6 @@ coordinados/
 
 ## Declaración de uso de herramientas
 Para el desarrollo de este proyecto se utilizó asistencia de Inteligencia Artificial (Gemini) exclusivamente como herramienta de apoyo técnico. Su uso se limitó a:
- Asistencia en la integracion y manejo de permisos para módulos nativos
- Funciones auxiliares para montos con coma decimal
- Implementacion del AuthContext con almacenamiento en AsyncStorage 
+* Asistencia en la integración y manejo de permisos para módulos nativos (`expo-calendar`, `@react-native-async-storage/async-storage`).
+* Funciones auxiliares para el formateo de montos con coma decimal en español.
+* Guía de arquitectura para la implementación del `AuthContext` con almacenamiento en `AsyncStorage`.
